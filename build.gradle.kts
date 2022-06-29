@@ -27,6 +27,12 @@ dependencies {
     implementation("org.mapstruct:mapstruct:1.5.2.Final")
     annotationProcessor("org.mapstruct:mapstruct-processor:1.5.2.Final")
     kapt("org.mapstruct:mapstruct-processor:1.5.2.Final")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.7.1")
+
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    implementation("org.postgresql:postgresql:42.1.4")
 }
 
 tasks.withType<KotlinCompile> {
